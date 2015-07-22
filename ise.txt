@@ -1,0 +1,70 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            12:9d:43:33:00:00:00:00:59:6c
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=MN, L=Richfield, O=Best Buy Co., Inc., OU=IS, CN=Best Buy NA Enterprise CA (2)
+        Validity
+            Not Before: Oct 11 11:07:50 2013 GMT
+            Not After : Oct 11 11:07:50 2015 GMT
+        Subject: C=US, ST=Minnesota, L=Richfield, O=BestBuy Co Inc, OU=System, CN=bby-s-ise-dev
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:b6:6d:6c:58:95:8c:27:08:03:a2:98:c4:df:85:
+                    a9:56:af:ea:4b:55:5d:1e:44:c4:d1:5a:8e:7d:11:
+                    66:0a:d1:f4:25:83:39:cc:43:71:e1:64:52:b4:17:
+                    bb:c9:5c:0d:e9:88:8f:72:42:ac:6d:a9:ca:25:a8:
+                    de:8d:5a:32:19:a5:5c:7b:00:04:07:ac:28:0c:9e:
+                    f2:27:fe:3b:d0:ab:7b:ea:87:9e:26:93:8e:c5:d0:
+                    82:d5:a3:96:3e:8e:d3:db:84:cd:95:e1:36:04:81:
+                    f8:89:03:9b:f4:cc:5a:d1:fb:8b:1b:55:6e:79:34:
+                    f0:79:41:fc:75:69:a2:2d:b6:ab:66:fc:d5:af:25:
+                    d4:27:40:aa:3c:6d:24:57:87:50:42:6f:94:29:42:
+                    c5:0c:97:30:ba:fb:54:d7:26:74:6f:30:2f:3b:0b:
+                    55:4f:d8:7c:a5:f1:54:de:81:f4:bf:a5:d5:3c:ed:
+                    b1:24:ad:b5:16:d2:a9:97:bb:54:63:ac:51:d1:43:
+                    3f:e8:18:e0:1b:b8:f2:fc:b0:00:55:66:00:3e:04:
+                    08:1f:c3:dc:38:d0:f8:b8:87:35:aa:32:e2:e1:d5:
+                    c6:c8:9e:37:7f:86:1c:8f:d7:6e:c3:d9:9a:e2:8a:
+                    be:61:40:88:7b:88:51:78:47:d5:b8:a3:59:65:86:
+                    55:47
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                A0:85:49:C0:70:84:4E:79:F4:75:33:AD:EC:97:65:E9:CA:74:B5:C6
+            X509v3 Authority Key Identifier: 
+                keyid:AE:AC:8E:A0:CB:6C:20:D0:34:54:C7:D1:FF:AB:89:A3:E3:D8:E2:6E
+
+            X509v3 CRL Distribution Points: 
+                URI:ldap:///CN=Best%20Buy%20NA%20Enterprise%20CA%20!00282!0029,CN=ds04cert,CN=CDP,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=bestbuy,DC=com?certificateRevocationList?base?objectClass=cRLDistributionPoint
+                URI:http://bbycertauthority.bestbuy.com/CertData/Best%20Buy%20NA%20Enterprise%20CA%20!00282!0029.crl
+                URI:http://ds04cert.na.bestbuy.com/CertEnroll/Best%20Buy%20NA%20Enterprise%20CA%20!00282!0029.crl
+
+            Authority Information Access: 
+                CA Issuers - URI:ldap:///CN=Best%20Buy%20NA%20Enterprise%20CA%20!00282!0029,CN=AIA,CN=Public%20Key%20Services,CN=Services,CN=Configuration,DC=bestbuy,DC=com?cACertificate?base?objectClass=certificationAuthority
+                CA Issuers - URI:http://bbycertauthority.bestbuy.com/CertData/ds04cert.na.bestbuy.com_Best%20Buy%20NA%20Enterprise%20CA%20!00282!0029.crt
+                CA Issuers - URI:http://ds04cert.na.bestbuy.com/CertEnroll/ds04cert.na.bestbuy.com_Best%20Buy%20NA%20Enterprise%20CA%20!00282!0029.crt
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            1.3.6.1.4.1.311.21.7: 
+                01.)+.....7.....b...........1...{.\....G.......d...
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            1.3.6.1.4.1.311.21.10: 
+                0.0
+..+.......
+    Signature Algorithm: sha1WithRSAEncryption
+        76:d4:5a:d3:fb:89:c7:10:74:a8:aa:86:ea:72:49:fb:80:2e:
+        bb:11:8e:62:88:57:b4:38:b8:26:12:b4:5b:64:67:fd:fb:09:
+        bc:44:f0:84:d3:b8:c5:d2:89:b9:ff:c1:1c:6d:16:60:78:9c:
+        c8:b6:63:6a:8c:79:72:c9:d2:9c:e6:5b:7b:37:3f:27:e4:13:
+        ec:ea:7e:89:a1:50:0a:7d:66:0b:2b:cc:12:62:2d:4f:04:53:
+        0e:99:96:d4:02:34:32:94:85:53:5d:08:5a:6e:c8:ec:23:93:
+        88:c4:ef:6e:3c:92:84:40:a5:5c:74:28:8a:c7:2c:e7:7a:08:
+        91:d7
